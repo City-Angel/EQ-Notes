@@ -57,10 +57,14 @@
 ; assist 時自動攻擊關閉
 /assist off
 
-; 建立熱鍵
+; 常用熱鍵
+/hot LOC /loc
 /hot ASS /assist
 /hot ASS2 /assist <name>
+
+# 隱藏已經 loot 過的怪物
 /hot LOOTED /hidecorpse looted
+# 取消隱藏已經 loot 過的怪物
 /hot NONE /hidecorpse none
 
 ; 寵物熱鍵
@@ -69,6 +73,31 @@
 /hot PetFlw /pet follow me
 /hot PetGrd /pet guard here
 /hot PetSit /pet Sit
+```
+
+## 常用 Macro:
+```
+# Bard Song
+# 單首歌 Song1
+/pause 2,/stopsong
+/pause 2,/cast 1
+
+## 兩首歌 (中間可穿插使用 Breath of Harmony)
+/pause 1,/stopsong
+/pause 28,/cast 4
+/pause 1,/stopsong
+/cast 2
+
+# Feign Death
+# (在 attack 狀態直接 FD 會有 bug，怪依然會繼續攻擊)
+/attack off
+/doability 4
+
+# Auto Attack
+# disarm, kick 可以放一起
+/attack on
+/doability 10
+/doability 7
 ```
 
 ---
@@ -83,8 +112,10 @@
 
 ---
 ## Target Purple link 紫色連結
-https://wiki.project1999.com/Meviin%27s_Macros:_Purple_Links_When_Pulling
-https://mqemulator.net/item.php?id=16594
+- [Purple_Links_When_Pulling]([https://wiki.project1999.com/Meviin%27s_Macros:_Purple_Links_When_Pulling)
+- [Item ID](https://mqemulator.net/item.php?id=16594)
+
+Example:
 ```
 Page2Button12Name=Incoming
 Page2Button12Color=17
