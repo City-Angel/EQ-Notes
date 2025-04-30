@@ -148,7 +148,7 @@ Page2Button12Line1=/g Incoming <0032F7000000000000000000000000000000000000000  
 ## 使用說明
 1. 拷貝檔案
     - 拷貝 dgVoodooCpl.exe 到 C:\EverQuest (我的 EQ P99 目錄，自己改)
-    - 拷貝 MS\x86 裡的所有 DLL 檔到 C:\EverQuest (edited)
+    - 拷貝 MS\x86 裡的所有 DLL 檔到 C:\EverQuest
 2. 執行 dgVoodooCpl.exe
 3. 設定
     - 在位址條的右邊，點擊 ".\" 按鈕讓 dbVoodoo 定位到你的 EQ 目錄 3.1 到 General 標籤
