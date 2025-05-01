@@ -112,7 +112,7 @@
 
 ---
 ## Target Purple link 紫色連結
-- [Purple_Links_When_Pulling]([https://wiki.project1999.com/Meviin%27s_Macros:_Purple_Links_When_Pulling)
+- [Purple Links When Pulling](https://wiki.project1999.com/Meviin%27s_Macros:_Purple_Links_When_Pulling)
 - [Item ID](https://mqemulator.net/item.php?id=16594)
 
 Example:
@@ -134,7 +134,7 @@ Page2Button12Line1=/g Incoming <0032F7000000000000000000000000000000000000000  
     - copy MS\x86\*.* C:\EverQuest
 2. launch dgVoodooCpl.exe
 3. config
-    - click ".\" button on the right of the location bar
+    - click the ".\" button on the right of the location bar
     - on General tab
         - check Windowed
         - check Enumerate refresh rates
@@ -151,13 +151,12 @@ Page2Button12Line1=/g Incoming <0032F7000000000000000000000000000000000000000  
     - 拷貝 MS\x86 裡的所有 DLL 檔到 C:\EverQuest
 2. 執行 dgVoodooCpl.exe
 3. 設定
-    - 在位址條的右邊，點擊 ".\" 按鈕讓 dbVoodoo 定位到你的 EQ 目錄 3.1 到 General 標籤
+    - 在位址條的右邊，點擊 ".\" 按鈕讓 dbVoodoo 定位到你的 EQ 目錄。
     - 3.1 到 General 標籤
         - 選 Windowed (應該沒人用 Full Screen 玩吧?)
         - 點選 Enumerate refresh rates (模擬 Voodoo 卡的更新頻率)
         - 調整亮度 Brightness (不調整也可以)
         - 點選 Center App Window (讓你的 EQ 視窗啟動時保持在螢幕正中間)
-
     - 3.2 到 DirectX 標籤
         - 選擇正確的 VRAM (GPUZ to find out) (不知道隨便選 1~2G 都可以)
         - 取消點選 dgVoodoo Watermark (也可以先不點掉，用來測試 DgVoodoo 是否有在運作，確定後再回來點掉)
