@@ -2,10 +2,10 @@
 ## 常用連結：
 - [查價 (取代以前的 unixgeek)](https://pigparse.azurewebsites.net/ServerIndex/Green)
 - [Scout Time](https://pigparse.azurewebsites.net/)
-- [P99 Wiki](https://wiki.project1999.com)
+- [Project 1999 Wiki](https://wiki.project1999.com)
 - [顯卡設定指南](https://everquest.fanra.info/wiki/Graphics_and_performance_settings_guide#Necessary_effects)
 - [任務 Qeynos Badge Quests](https://wiki.project1999.com/Qeynos_Badge_Quests)
-- [Purple Links When Pulling](https://wiki.project1999.com/Meviin%27s_Macros:_Purple_Links_When_Pulling)
+- [紫色連結](#Target-Purple-link-紫色連結) | [Purple Links When Pulling](https://wiki.project1999.com/Meviin%27s_Macros:_Purple_Links_When_Pulling)
 - [Monk EPIC 1.0](https://www.eqprogression.com/monk-1-0-epic-quest/)
 - [Druid EPIC 1.0](https://www.eqprogression.com/druid-1-0-epic-quest/)
 - [Necro EPIC 1.0](https://www.eqprogression.com/necromancer-1-0-epic-quest/)
@@ -18,12 +18,13 @@
 ## 好用工具：
 - [PigParser(EqTool)](https://github.com/smasherprog/EqTool) 好用地圖與計時器
 - [OldCatchUp](https://github.com/smasherprog/EqTool/releases/tag/OldCatchUp) EqTool 最新版本 download
-- [GINA](https://eq.gimasoft.com/gina/) 自訂計時器
+- [GINA](https://eq.gimasoft.com/gina/) LogParser/Trigger
 - [Boarderless-Gaming-9.5.6](https://github.com/Codeusa/Borderless-Gaming/releases/tag/9.5.6) 無邊框視窗全螢幕模式(適用筆電小螢幕)
 - [p99-login-middlemand](https://github.com/rm-you/p99-login-middlemand/releases/tag/win-rel1) 修復登入問題的軟體 (已整合至 PigParser/EQTool )
-- [DgVoodoo2](http://dege.freeweb.hu/dgVoodoo2/) 修復 nVidia 顯卡遇到火焰時螢幕會凍結的問題
+- [DgVoodoo2範例](#DgVoodoo2-修復-nVidia-顯卡遇到火焰時螢幕會凍結的問題) | [DgVoodoo2](http://dege.freeweb.hu/dgVoodoo2/) 修復 nVidia 顯卡凍結問題
 - [WinEQ2](https://www.lavishsoft.com/download/wineq2) 修正顯示頻率過快 (EQPlayNice)
 - [S3DSpy_1.2.zip](https://sourceforge.net/projects/eqemulator/files/OpenZone/S3DSpy%201.2/S3DSpy_1.2.zip/download) 修改音效
+- [CCHPM V1.16.zip](https://kingdomdkp.com/data/files/system/guides/tools/CCHPM/CCHPM%20V1.16.zip) | [CCHPM(github)](https://github.com/winter88888/CCHPM) CH 輔助
 
 ---
 ## 音效修改檔(已用S3DSpy修改完畢)：
@@ -38,15 +39,43 @@
 `idle_mobs_mute.bat` 與 `weather_mute.bat` 等檔案即可。
 
 ---
-## 常用指令：
+## 其他索引
+- [常用連結：](#常用連結)
+- [好用工具：](#好用工具)
+- [音效修改檔(已用S3DSpy修改完畢)：](#音效修改檔已用s3dspy修改完畢)
+- [音效修改 (THJ)](#音效修改-thj)
+- [其他索引](#其他索引)
+- [常用指令](#常用指令)
+- [常用 Macro](#常用-macro)
+- [輸出檔案](#輸出檔案)
+- [Target Purple link 紫色連結](#target-purple-link-紫色連結)
+- [DgVoodoo2 修復 nVidia 顯卡遇到火焰時螢幕會凍結的問題](#dgvoodoo2-修復-nvidia-顯卡遇到火焰時螢幕會凍結的問題)
+  - [How-To Use dgVoodoo2](#how-to-use-dgvoodoo2)
+  - [dgVoodoo2 使用說明](#dgvoodoo2-使用說明)
+- [GINA Notes](#gina-notes)
+  - [Supported {} tags](#supported--tags)
+  - [Fast Check](#fast-check)
+
+---
+## 常用指令
 ```
 ; 位址查詢
 /loc
 
-; 使用技能，通常設 sense heading，等級一時先花一點去導師那學習
+; Mouse Inspect Off
+/toggleInspect off
+
+; Loot moeny split off
+/autosplit off
+
+; 使用 Discipline
+/disc StoneStance
+
+; 使用技能 (ctrl + A)
+; Sense Heading 一定要先花一點去導師那學習才會提升
 /doability 1~6
 
-; 使用戰鬥技能
+; 使用戰鬥技能 (ctrl + C)
 /doability 7~10
 
 ; change font size
@@ -55,7 +84,7 @@
 ; check your bind point
 /charinfo
 
-; assist 時自動攻擊關閉
+; assist 關閉自動攻擊
 /assist off
 
 ; 常用熱鍵
@@ -76,7 +105,7 @@
 /hot PetSit /pet Sit
 ```
 
-## 常用 Macro:
+## 常用 Macro
 ```
 # Bard Song
 # 單首歌 Song1
@@ -102,13 +131,13 @@
 ```
 
 ---
-## 輸出檔案：
+## 輸出檔案
 ```
 ; 裝備與銀行
-/outputfile inventory charactername_inventory.txt
+/outputfile inventory name_inventory.txt
 
 ; 法術書
-/outputfile spellbook charactername_spellbook.txt
+/outputfile spellbook name_spellbook.txt
 ```
 
 ---
@@ -129,7 +158,7 @@ Page2Button12Line1=/g Incoming <0032F7000000000000000000000000000000000000000  
 - [DgVoodoo2](http://dege.freeweb.hu/dgVoodoo2/)
 - [DgVoodoo2_Download](http://dege.freeweb.hu/dgVoodoo2/dgVoodoo2/)
 
-## How-To Use dgVoodoo2
+### How-To Use dgVoodoo2
 1. copy files
     - copy dgVoodooCpl.exe C:\EverQuest
     - copy MS\x86\*.* C:\EverQuest
@@ -146,7 +175,7 @@ Page2Button12Line1=/g Incoming <0032F7000000000000000000000000000000000000000  
         - check off dgVoodoo Watermark (check on to make sure DgVoodoo working)
 4. Click Apply or OK, Restart EQ, dgVoodoo2 will be loaded automatically.
 
-## 使用說明
+### dgVoodoo2 使用說明
 1. 拷貝檔案
     - 拷貝 dgVoodooCpl.exe 到 C:\EverQuest (我的 EQ P99 目錄，自己改)
     - 拷貝 MS\x86 裡的所有 DLL 檔到 C:\EverQuest
@@ -168,7 +197,7 @@ Page2Button12Line1=/g Incoming <0032F7000000000000000000000000000000000000000  
 ![dgVoodoo2 Settings 2](image/dgVoodoo2-2.png)
 
 ---
-## GINA
+## GINA Notes
 - [https://eq.gimasoft.com/gina/](https://eq.gimasoft.com/gina/)
 - [Download](https://eq.gimasoft.com/gina/Download.aspx)
 
@@ -180,7 +209,7 @@ Page2Button12Line1=/g Incoming <0032F7000000000000000000000000000000000000000  
 - {COUNTER} = counter
 - {TS} = timer
 
-### ### Supported {} tags
+### Supported {} tags
 [https://eq.gimasoft.com/forums/viewtopic.php?f=7&t=23](https://eq.gimasoft.com/forums/viewtopic.php?f=7&t=23)
 
 ```
