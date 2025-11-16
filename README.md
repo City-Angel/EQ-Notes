@@ -1,11 +1,50 @@
 
-## 常用連結：
+---
+## 索引 (Table of Contents)
+- [索引 (Table of Contents)](#索引-table-of-contents)
+- [常用連結](#常用連結)
+- [好用工具](#好用工具)
+- [音效修改檔 (已用S3DSpy修改完畢)](#音效修改檔-已用s3dspy修改完畢)
+- [音效修改 (THJ)](#音效修改-thj)
+- [設定常用按鍵](#設定常用按鍵)
+  - [設定貼上鍵為 ctrl+v 與 shift+insert](#設定貼上鍵為-ctrlv-與-shiftinsert)
+  - [設定最後兩個目標切換鍵](#設定最後兩個目標切換鍵)
+- [常用 Macro](#常用-macro)
+  - [創建位址查詢熱鍵](#創建位址查詢熱鍵)
+  - [關閉滑鼠右鍵看裝備 (mouse inspect off)](#關閉滑鼠右鍵看裝備-mouse-inspect-off)
+  - [關閉loot自動分錢 (loot moeny split off)](#關閉loot自動分錢-loot-moeny-split-off)
+  - [assist 關閉自動攻擊](#assist-關閉自動攻擊)
+  - [使用某個 Discipline (alt+c)](#使用某個-discipline-altc)
+  - [使用技能 (ctrl+a)](#使用技能-ctrla)
+  - [使用戰鬥技能 (ctrl+c)](#使用戰鬥技能-ctrlc)
+  - [修改字型大小 (change font size)](#修改字型大小-change-font-size)
+  - [查 bind 點 (check your bind point)](#查-bind-點-check-your-bind-point)
+  - [創建 assist 熱鍵](#創建-assist-熱鍵)
+  - [創建隱藏已經 loot 過的怪物熱鍵](#創建隱藏已經-loot-過的怪物熱鍵)
+  - [取消隱藏已經 loot 過的怪物](#取消隱藏已經-loot-過的怪物)
+  - [創建寵物熱鍵](#創建寵物熱鍵)
+  - [Bard 單首歌 Song1](#bard-單首歌-song1)
+  - [Bard 兩首歌 (中間可穿插使用 Breath of Harmony)](#bard-兩首歌-中間可穿插使用-breath-of-harmony)
+  - [Feign Death](#feign-death)
+  - [單鍵 Auto Attack 技能](#單鍵-auto-attack-技能)
+- [輸出檔案指令](#輸出檔案指令)
+  - [某角色裝備與銀行](#某角色裝備與銀行)
+  - [某角色法術書](#某角色法術書)
+- [紫色連結 (Target Purple link)](#紫色連結-target-purple-link)
+- [DgVoodoo2 修復 nVidia 顯卡遇到火焰螢幕凍結的問題](#dgvoodoo2-修復-nvidia-顯卡遇到火焰螢幕凍結的問題)
+  - [How-To Use dgVoodoo2](#how-to-use-dgvoodoo2)
+  - [dgVoodoo2 使用說明](#dgvoodoo2-使用說明)
+- [GINA Notes](#gina-notes)
+  - [Supported {} tags](#supported--tags)
+  - [Fast Check](#fast-check)
+
+---
+## 常用連結
 - [查價 (取代以前的 unixgeek)](https://pigparse.azurewebsites.net/ServerIndex/Green)
 - [Scout Time](https://pigparse.azurewebsites.net/)
 - [Project 1999 Wiki](https://wiki.project1999.com)
 - [顯卡設定指南](https://everquest.fanra.info/wiki/Graphics_and_performance_settings_guide#Necessary_effects)
 - [任務 Qeynos Badge Quests](https://wiki.project1999.com/Qeynos_Badge_Quests)
-- [紫色連結](#Target-Purple-link-紫色連結) | [Purple Links When Pulling](https://wiki.project1999.com/Meviin%27s_Macros:_Purple_Links_When_Pulling)
 - [Monk EPIC 1.0](https://www.eqprogression.com/monk-1-0-epic-quest/)
 - [Druid EPIC 1.0](https://www.eqprogression.com/druid-1-0-epic-quest/)
 - [Necro EPIC 1.0](https://www.eqprogression.com/necromancer-1-0-epic-quest/)
@@ -13,21 +52,23 @@
 - [Cleric EPIC 1.0+](https://everquest.allakhazam.com/db/quest.html?quest=757) 多了組合珍珠的版本 (EQTHJ)
 - [EQTHJ](https://heroesjourneyemu.com/)
 - [THJ-Wiki](https://thj-wiki.web.app/)
----
 
-## 好用工具：
+---
+## 好用工具
 - [PigParser(EqTool)](https://github.com/smasherprog/EqTool) 好用地圖與計時器
 - [OldCatchUp](https://github.com/smasherprog/EqTool/releases/tag/OldCatchUp) EqTool 最新版本 download
-- [GINA](https://eq.gimasoft.com/gina/) LogParser/Trigger
+- [GINA](https://eq.gimasoft.com/gina/) LogParser/Trigger (down)
+- [GINA Guide](https://formerglory.lol/gina/) New Download Link
 - [Boarderless-Gaming-9.5.6](https://github.com/Codeusa/Borderless-Gaming/releases/tag/9.5.6) 無邊框視窗全螢幕模式(適用筆電小螢幕)
 - [p99-login-middlemand](https://github.com/rm-you/p99-login-middlemand/releases/tag/win-rel1) 修復登入問題的軟體 (已整合至 PigParser/EQTool )
 - [DgVoodoo2範例](#DgVoodoo2-修復-nVidia-顯卡遇到火焰時螢幕會凍結的問題) | [DgVoodoo2](http://dege.freeweb.hu/dgVoodoo2/) 修復 nVidia 顯卡凍結問題
 - [WinEQ2](https://www.lavishsoft.com/download/wineq2) 修正顯示頻率過快 (EQPlayNice)
 - [S3DSpy_1.2.zip](https://sourceforge.net/projects/eqemulator/files/OpenZone/S3DSpy%201.2/S3DSpy_1.2.zip/download) 修改音效
 - [CCHPM V1.16.zip](https://kingdomdkp.com/data/files/system/guides/tools/CCHPM/CCHPM%20V1.16.zip) | [CCHPM(github)](https://github.com/winter88888/CCHPM) CH 輔助
+- [EQ NAG](https://guildantix.github.io/eq-nag/) LogParser/Trigger (GINA replacement)
 
 ---
-## 音效修改檔(已用S3DSpy修改完畢)：
+## 音效修改檔 (已用S3DSpy修改完畢)
 - 解壓縮後放入 EQ 目錄覆蓋原檔案即可。
 - [無雷聲](SoundFix/snd2fix(nothunders).zip)
 - [死靈59寵物無聲](SoundFix/snd5fix(no_spectre_loop_idle).zip)
@@ -39,121 +80,168 @@
 `idle_mobs_mute.bat` 與 `weather_mute.bat` 等檔案即可。
 
 ---
-## 其他索引
-- [常用連結：](#常用連結)
-- [好用工具：](#好用工具)
-- [音效修改檔(已用S3DSpy修改完畢)：](#音效修改檔已用s3dspy修改完畢)
-- [音效修改 (THJ)](#音效修改-thj)
-- [其他索引](#其他索引)
-- [常用指令](#常用指令)
-- [常用 Macro](#常用-macro)
-- [輸出檔案](#輸出檔案)
-- [Target Purple link 紫色連結](#target-purple-link-紫色連結)
-- [DgVoodoo2 修復 nVidia 顯卡遇到火焰時螢幕會凍結的問題](#dgvoodoo2-修復-nvidia-顯卡遇到火焰時螢幕會凍結的問題)
-  - [How-To Use dgVoodoo2](#how-to-use-dgvoodoo2)
-  - [dgVoodoo2 使用說明](#dgvoodoo2-使用說明)
-- [GINA Notes](#gina-notes)
-  - [Supported {} tags](#supported--tags)
-  - [Fast Check](#fast-check)
+## 設定常用按鍵
+
+### 設定貼上鍵為 ctrl+v 與 shift+insert
+P99 沒有預設貼上鍵，按下 alt+o 打開 options，按 Keys 分頁，選 UI 往下拉，把 "Paste form Clipboard" 設為 ctrl+v 與 shift+insert 兩個常用的貼上鍵。
+
+![Set paste key](image/EQ-Keys-Ctrl_V.png)
+
+### 設定最後兩個目標切換鍵
+可以使用這個按鍵將團隊buff施放給lv45以下的玩家，我習慣設為v。
+alt+o -> Keys -> Target -> "Toggle last two targets"
+
+![Set last two target key](image/EQ-Keys-Toggle_Targets.png)
 
 ---
-## 常用指令
-```
-; 位址查詢
-/loc
-
-; Mouse Inspect Off
-/toggleInspect off
-
-; Loot moeny split off
-/autosplit off
-
-; 使用 Discipline
-/disc StoneStance
-
-; 使用技能 (ctrl + A)
-; Sense Heading 一定要先花一點去導師那學習才會提升
-/doability 1~6
-
-; 使用戰鬥技能 (ctrl + C)
-/doability 7~10
-
-; change font size
-/chatfontsize 1~6
-
-; check your bind point
-/charinfo
-
-; assist 關閉自動攻擊
-/assist off
-
-; 常用熱鍵
-/hot LOC /loc
-/hot ASS /assist
-/hot ASS2 /assist <name>
-
-# 隱藏已經 loot 過的怪物
-/hot LOOTED /hidecorpse looted
-# 取消隱藏已經 loot 過的怪物
-/hot NONE /hidecorpse none
-
-; 寵物熱鍵
-/hot PetAtk /pet attack
-/hot PetBak /pet back off
-/hot PetFlw /pet follow me
-/hot PetGrd /pet guard here
-/hot PetSit /pet Sit
-```
-
 ## 常用 Macro
+### 創建位址查詢熱鍵
 ```
-# Bard Song
-# 單首歌 Song1
+/hot LOC /loc
+```
+
+### 關閉滑鼠右鍵看裝備 (mouse inspect off)
+```
+/toggleInspect off
+```
+
+### 關閉loot自動分錢 (loot moeny split off)
+```
+/autosplit off
+```
+
+### assist 關閉自動攻擊
+```
+/assist off
+```
+
+### 使用某個 Discipline (alt+c)
+(只輸入 /disc 可查時間)
+```
+/disc StoneStance
+```
+
+### 使用技能 (ctrl+a)
+(1~6, Sense Heading 一定要先花一點去導師那學習才會提升)
+```
+/doability 1
+```
+
+### 使用戰鬥技能 (ctrl+c)
+(7~10)
+```
+/doability 7
+```
+
+### 修改字型大小 (change font size)
+(1~6)
+```
+/chatfontsize 6
+```
+
+### 查 bind 點 (check your bind point)
+```
+/charinfo
+```
+
+### 創建 assist 熱鍵
+```
+/hot ASS /assist
+```
+
+### 創建隱藏已經 loot 過的怪物熱鍵
+```
+/hot LOOTED /hidecorpse looted
+```
+
+### 取消隱藏已經 loot 過的怪物
+```
+/hot NONE /hidecorpse none
+```
+
+### 創建寵物熱鍵
+```
+/hot PetAtk /pet attack
+```
+```
+/hot PetBak /pet back off
+```
+```
+/hot PetFlw /pet follow me
+```
+```
+/hot PetGrd /pet guard here
+```
+```
+/hot PetSit /pet sit
+```
+
+### Bard 單首歌 Song1
+```
 /pause 2,/stopsong
 /pause 2,/cast 1
+```
 
-## 兩首歌 (中間可穿插使用 Breath of Harmony)
+### Bard 兩首歌 (中間可穿插使用 Breath of Harmony)
+```
 /pause 1,/stopsong
 /pause 28,/cast 4
 /pause 1,/stopsong
 /cast 2
+```
 
-# Feign Death
-# (在 attack 狀態直接 FD 會有 bug，怪依然會繼續攻擊)
+### Feign Death
+- (在 attack 狀態直接 FD 會有 bug，怪依然會繼續攻擊)
+```
 /attack off
 /doability 4
+```
 
-# Auto Attack
-# disarm, kick 可以放一起
+### 單鍵 Auto Attack 技能
+- disarm, kick 可以放一起
+```
 /attack on
 /doability 10
 /doability 7
 ```
 
 ---
-## 輸出檔案
-```
-; 裝備與銀行
-/outputfile inventory name_inventory.txt
+## 輸出檔案指令
 
-; 法術書
+### 某角色裝備與銀行
+```
+/outputfile inventory name_inventory.txt
+```
+
+### 某角色法術書
+```
 /outputfile spellbook name_spellbook.txt
 ```
 
 ---
-## Target Purple link 紫色連結
+## 紫色連結 (Target Purple link)
 - [Purple Links When Pulling](https://wiki.project1999.com/Meviin%27s_Macros:_Purple_Links_When_Pulling)
 - [Item ID](https://mqemulator.net/item.php?id=16594)
+- [進制轉換](https://www.binaryhexconverter.com/decimal-to-hex-converter)
 
-Example:
+修改步驟：
+1. 安裝一個純文字編輯器([Notepad++](https://notepad-plus-plus.org/), [Sublime](https://www.sublimetext.com/), [VS Code](https://code.visualstudio.com/download), [Neovim](https://neovim.io/))。
+2. 進入 EQ，隨便創一個 macro，如 "`/hot Incoming /g Incoming %t`"。
+3. 退出 EQ，進入 EQ 目錄，找到 "`角色名稱_project1999.ini`" 檔案，用純文字編輯器打開。
+4. 到上面 [Item ID](https://mqemulator.net/item.php?id=16594) 連結尋找你想顯示的物品。
+5. 到上面 [進制轉換](https://www.binaryhexconverter.com/decimal-to-hex-converter)
+ 連結把 ID 從10進制轉為16進制。
+6. 把原本的 Inc Macro 改成新的 Macro 如下。
 ```
 Page2Button12Name=Incoming
 Page2Button12Color=17
 Page2Button12Line1=/g Incoming <0032F7000000000000000000000000000000000000000      %t >.  One per message.
 ```
+7. 注意物品 ID 前後有特殊的不可見字元，如果不知道怎樣正確複製，可下載 [purple-link.txt](purple-links.txt) 把有特殊字元那段複製貼上。
+8. 關閉純文字編輯器，啟動 EQ 測試。
 
 ---
-## DgVoodoo2 修復 nVidia 顯卡遇到火焰時螢幕會凍結的問題
+## DgVoodoo2 修復 nVidia 顯卡遇到火焰螢幕凍結的問題
 - fix nVidia card in game flame cause screen frozen issue.
 - [DgVoodoo2](http://dege.freeweb.hu/dgVoodoo2/)
 - [DgVoodoo2_Download](http://dege.freeweb.hu/dgVoodoo2/dgVoodoo2/)

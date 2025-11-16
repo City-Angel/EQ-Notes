@@ -1,0 +1,3 @@
+Page2Button12Name=Incoming
+Page2Button12Color=17
+Page2Button12Line1=/g Incoming <0032F7000000000000000000000000000000000000000      %t >.  One per message.
