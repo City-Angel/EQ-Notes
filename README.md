@@ -5,14 +5,13 @@
 - [常用連結](#常用連結)
 - [好用工具](#好用工具)
 - [音效修改檔 (已用S3DSpy修改完畢)](#音效修改檔-已用s3dspy修改完畢)
-- [音效修改 (THJ)](#音效修改-thj)
 - [設定常用按鍵](#設定常用按鍵)
   - [設定貼上鍵為 ctrl+v 與 shift+insert](#設定貼上鍵為-ctrlv-與-shiftinsert)
   - [設定最後兩個目標切換鍵](#設定最後兩個目標切換鍵)
 - [常用 Macro](#常用-macro)
   - [創建位址查詢熱鍵](#創建位址查詢熱鍵)
   - [關閉滑鼠右鍵看裝備 (mouse inspect off)](#關閉滑鼠右鍵看裝備-mouse-inspect-off)
-  - [關閉loot自動分錢 (loot moeny split off)](#關閉loot自動分錢-loot-moeny-split-off)
+  - [關閉 loot 自動分錢 (loot moeny split off)](#關閉-loot-自動分錢-loot-moeny-split-off)
   - [assist 關閉自動攻擊](#assist-關閉自動攻擊)
   - [使用某個 Discipline (alt+c)](#使用某個-discipline-altc)
   - [使用技能 (ctrl+a)](#使用技能-ctrla)
@@ -49,19 +48,16 @@
 - [Druid EPIC 1.0](https://www.eqprogression.com/druid-1-0-epic-quest/)
 - [Necro EPIC 1.0](https://www.eqprogression.com/necromancer-1-0-epic-quest/)
 - [Mage EPIC 1.0](https://www.eqprogression.com/magician-1-0-epic-quest/)
-- [Cleric EPIC 1.0+](https://everquest.allakhazam.com/db/quest.html?quest=757) 多了組合珍珠的版本 (EQTHJ)
-- [EQTHJ](https://heroesjourneyemu.com/)
-- [THJ-Wiki](https://thj-wiki.web.app/)
 
 ---
 ## 好用工具
 - [PigParser(EqTool)](https://github.com/smasherprog/EqTool) 好用地圖與計時器
 - [OldCatchUp](https://github.com/smasherprog/EqTool/releases/tag/OldCatchUp) EqTool 最新版本 download
-- [GINA](https://eq.gimasoft.com/gina/) LogParser/Trigger (down)
-- [GINA Guide](https://formerglory.lol/gina/) New Download Link
+- ~~[GINA](https://eq.gimasoft.com/gina/) LogParser/Trigger (down)~~
+- [GINA Guide](https://formerglory.lol/gina/) Gina New Download Link
 - [Boarderless-Gaming-9.5.6](https://github.com/Codeusa/Borderless-Gaming/releases/tag/9.5.6) 無邊框視窗全螢幕模式(適用筆電小螢幕)
 - [p99-login-middlemand](https://github.com/rm-you/p99-login-middlemand/releases/tag/win-rel1) 修復登入問題的軟體 (已整合至 PigParser/EQTool )
-- [DgVoodoo2範例](#DgVoodoo2-修復-nVidia-顯卡遇到火焰時螢幕會凍結的問題) | [DgVoodoo2](http://dege.freeweb.hu/dgVoodoo2/) 修復 nVidia 顯卡凍結問題
+- [DgVoodoo2](http://dege.freeweb.hu/dgVoodoo2/) 修復 nVidia 顯卡凍結問題
 - [WinEQ2](https://www.lavishsoft.com/download/wineq2) 修正顯示頻率過快 (EQPlayNice)
 - [S3DSpy_1.2.zip](https://sourceforge.net/projects/eqemulator/files/OpenZone/S3DSpy%201.2/S3DSpy_1.2.zip/download) 修改音效
 - [CCHPM V1.16.zip](https://kingdomdkp.com/data/files/system/guides/tools/CCHPM/CCHPM%20V1.16.zip) | [CCHPM(github)](https://github.com/winter88888/CCHPM) CH 輔助
@@ -75,21 +71,20 @@
 - [Lavastorm無炎爆聲](SoundFix/snd11fix(lavastorm).zip)
 - [POM無笑聲](SoundFix/snd8fix(pom_laughing).zip)
 
-## 音效修改 (THJ)
-到 `EQTHJ\extra\sound_mute\` 執行如
-`idle_mobs_mute.bat` 與 `weather_mute.bat` 等檔案即可。
-
 ---
 ## 設定常用按鍵
 
 ### 設定貼上鍵為 ctrl+v 與 shift+insert
-P99 沒有預設貼上鍵，按下 alt+o 打開 options，按 Keys 分頁，選 UI 往下拉，把 "Paste form Clipboard" 設為 ctrl+v 與 shift+insert 兩個常用的貼上鍵。
+P99 沒有預設貼上鍵，要自己加：
+1. 按下 alt+o 打開 options。
+2. 按 Keys 分頁，選 UI 往下拉。
+3. 把 "Paste form Clipboard" 設為 ctrl+v 與 shift+insert。
 
 ![Set paste key](image/EQ-Keys-Ctrl_V.png)
 
 ### 設定最後兩個目標切換鍵
 可以使用這個按鍵將團隊buff施放給lv45以下的玩家，我習慣設為v。
-alt+o -> Keys -> Target -> "Toggle last two targets"
+- alt+o -> Keys -> Target -> "Toggle last two targets"。
 
 ![Set last two target key](image/EQ-Keys-Toggle_Targets.png)
 
@@ -105,7 +100,7 @@ alt+o -> Keys -> Target -> "Toggle last two targets"
 /toggleInspect off
 ```
 
-### 關閉loot自動分錢 (loot moeny split off)
+### 關閉 loot 自動分錢 (loot moeny split off)
 ```
 /autosplit off
 ```
@@ -237,7 +232,7 @@ Page2Button12Name=Incoming
 Page2Button12Color=17
 Page2Button12Line1=/g Incoming <0032F7000000000000000000000000000000000000000      %t >.  One per message.
 ```
-7. 注意物品 ID 前後有特殊的不可見字元，如果不知道怎樣正確複製，可下載 [purple-link.txt](purple-links.txt) 把有特殊字元那段複製貼上。
+7. 注意物品 ID 前後有特殊的不可見字元，如果不知道怎樣正確複製，可下載 [purple-link.txt](https://raw.githubusercontent.com/City-Angel/EQ-Notes/refs/heads/main/purple-links.txt) 把有特殊字元那段複製貼上。
 8. 關閉純文字編輯器，啟動 EQ 測試。
 
 ---
