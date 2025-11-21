@@ -51,8 +51,7 @@
 
 ---
 ## 好用工具
-- [PigParser(EqTool)](https://github.com/smasherprog/EqTool) 好用地圖與計時器
-- [OldCatchUp](https://github.com/smasherprog/EqTool/releases/tag/OldCatchUp) EqTool 最新版本 download
+- [PigParser (EqTool)](https://github.com/smasherprog/EqTool) 好用地圖與計時器
 - ~~[GINA](https://eq.gimasoft.com/gina/) LogParser/Trigger (down)~~
 - [GINA Guide](https://formerglory.lol/gina/) Gina New Download Link
 - ~~[Boarderless-Gaming-9.5.6](https://github.com/Codeusa/Borderless-Gaming/releases/tag/9.5.6) 無邊框視窗全螢幕模式(適用筆電小螢幕)~~
