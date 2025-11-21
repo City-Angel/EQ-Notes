@@ -55,7 +55,8 @@
 - [OldCatchUp](https://github.com/smasherprog/EqTool/releases/tag/OldCatchUp) EqTool 最新版本 download
 - ~~[GINA](https://eq.gimasoft.com/gina/) LogParser/Trigger (down)~~
 - [GINA Guide](https://formerglory.lol/gina/) Gina New Download Link
-- [Boarderless-Gaming-9.5.6](https://github.com/Codeusa/Borderless-Gaming/releases/tag/9.5.6) 無邊框視窗全螢幕模式(適用筆電小螢幕)
+- ~~[Boarderless-Gaming-9.5.6](https://github.com/Codeusa/Borderless-Gaming/releases/tag/9.5.6) 無邊框視窗全螢幕模式(適用筆電小螢幕)~~
+- [Boarderless-Gaming 9.6.0](https://legacy.borderlessgam.ing/BorderlessGaming9.6_admin_setup.exe) 無邊框視窗全螢幕模式(適用筆電小螢幕)
 - [p99-login-middlemand](https://github.com/rm-you/p99-login-middlemand/releases/tag/win-rel1) 修復登入問題的軟體 (已整合至 PigParser/EQTool )
 - [DgVoodoo2](http://dege.freeweb.hu/dgVoodoo2/) 修復 nVidia 顯卡凍結問題
 - [WinEQ2](https://www.lavishsoft.com/download/wineq2) 修正顯示頻率過快 (EQPlayNice)
