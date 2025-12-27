@@ -2,6 +2,7 @@
 ---
 ## 索引 (Table of Contents)
 - [索引 (Table of Contents)](#索引-table-of-contents)
+- [2025 聖誕節特別任務](#2025-聖誕節特別任務)
 - [常用連結](#常用連結)
 - [好用工具](#好用工具)
 - [音效修改檔 (已用S3DSpy修改完畢)](#音效修改檔-已用s3dspy修改完畢)
@@ -38,6 +39,9 @@
   - [Fast Check](#fast-check)
 
 ---
+## [2025 聖誕節特別任務](XMAS-2025.md)
+
+---
 ## 常用連結
 - [查價 (取代以前的 unixgeek)](https://pigparse.azurewebsites.net/ServerIndex/Green)
 - [Scout Time](https://pigparse.azurewebsites.net/)
@@ -62,6 +66,7 @@
 - [S3DSpy_1.2.zip](https://sourceforge.net/projects/eqemulator/files/OpenZone/S3DSpy%201.2/S3DSpy_1.2.zip/download) 修改音效
 - [CCHPM V1.16.zip](https://kingdomdkp.com/data/files/system/guides/tools/CCHPM/CCHPM%20V1.16.zip) | [CCHPM(github)](https://github.com/winter88888/CCHPM) CH 輔助
 - [EQ NAG](https://guildantix.github.io/eq-nag/) LogParser/Trigger (GINA replacement)
+- [Krazzee's EQ Mods](https://sites.google.com/view/krazzee-eq/downloads) midi soundfont
 
 ---
 ## 音效修改檔 (已用S3DSpy修改完畢)
