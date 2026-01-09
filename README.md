@@ -2,8 +2,8 @@
 ---
 ## 索引 (Table of Contents)
 - [索引 (Table of Contents)](#索引-table-of-contents)
-- [2025 聖誕節特別任務](#2025-聖誕節特別任務)
 - [常用連結](#常用連結)
+- [任務](#任務)
 - [好用工具](#好用工具)
 - [音效修改檔 (已用S3DSpy修改完畢)](#音效修改檔-已用s3dspy修改完畢)
 - [設定常用按鍵](#設定常用按鍵)
@@ -39,24 +39,26 @@
   - [Fast Check](#fast-check)
 
 ---
-## [2025 聖誕節特別任務](XMAS-2025.md)
-
----
 ## 常用連結
 - [查價 (取代以前的 unixgeek)](https://pigparse.azurewebsites.net/ServerIndex/Green)
 - [Scout Time](https://pigparse.azurewebsites.net/)
 - [Project 1999 Wiki](https://wiki.project1999.com)
 - [顯卡設定指南](https://everquest.fanra.info/wiki/Graphics_and_performance_settings_guide#Necessary_effects)
-- [任務 Qeynos Badge Quests](https://wiki.project1999.com/Qeynos_Badge_Quests)
+
+---
+## 任務
+- ~~[2025 聖誕節特別任務(已結束)](XMAS-2025.md)~~
+- [Qeynos Badge Quests](https://wiki.project1999.com/Qeynos_Badge_Quests)
 - [Monk EPIC 1.0](https://www.eqprogression.com/monk-1-0-epic-quest/)
 - [Druid EPIC 1.0](https://www.eqprogression.com/druid-1-0-epic-quest/)
-- [Necro EPIC 1.0](https://www.eqprogression.com/necromancer-1-0-epic-quest/)
-- [Mage EPIC 1.0](https://www.eqprogression.com/magician-1-0-epic-quest/)
+- [Necromancer EPIC 1.0](https://www.eqprogression.com/necromancer-1-0-epic-quest/)
+- [Magician EPIC 1.0](https://www.eqprogression.com/magician-1-0-epic-quest/)
+- [Enchanter EPIC 1.0](https://www.eqprogression.com/enchanter-1-0-epic-quest/)
 
 ---
 ## 好用工具
 - [PigParser (EqTool)](https://github.com/smasherprog/EqTool) 好用地圖與計時器
-- ~~[GINA](https://eq.gimasoft.com/gina/) LogParser/Trigger (down)~~
+- ~~[GINA](https://eq.gimasoft.com/gina/) LogParser/Trigger (server down)~~
 - [GINA Guide](https://formerglory.lol/gina/) Gina New Download Link
 - ~~[Boarderless-Gaming-9.5.6](https://github.com/Codeusa/Borderless-Gaming/releases/tag/9.5.6) 無邊框視窗全螢幕模式(適用筆電小螢幕)~~
 - [Boarderless-Gaming 9.6.0](https://legacy.borderlessgam.ing/BorderlessGaming9.6_admin_setup.exe) 無邊框視窗全螢幕模式(適用筆電小螢幕)
@@ -177,12 +179,14 @@ P99 沒有預設貼上鍵，要自己加：
 ```
 
 ### Bard 單首歌 Song1
+- 加 `/pause` 會導致切換歌曲時施法條消失。
 ```
-/pause 2,/stopsong
-/pause 2,/cast 1
+/stopsong
+/cast 1
 ```
 
 ### Bard 兩首歌 (中間可穿插使用 Breath of Harmony)
+- `/pause 28,/cast 4` 會先 `/cast 4` 再 `/pause 28`。
 ```
 /pause 1,/stopsong
 /pause 28,/cast 4
@@ -191,14 +195,14 @@ P99 沒有預設貼上鍵，要自己加：
 ```
 
 ### Feign Death
-- (在 attack 狀態直接 FD 會有 bug，怪依然會繼續攻擊)
+- attack 狀態直接 FD 有 bug，怪依然會繼續攻擊。
 ```
 /attack off
 /doability 4
 ```
 
 ### 單鍵 Auto Attack 技能
-- disarm, kick 可以放一起
+- disarm, kick 可以放一起。
 ```
 /attack on
 /doability 10
