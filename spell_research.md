@@ -2,7 +2,7 @@ EQ Research Only List
 ===
 
 # Enchanter
-| LV | Spell | Words |
+| LV | Spell | Pages |
 | -- | --- | --- |
 | 16 | Mesmerization            | Tasarin's Grimoire Pg. 26 |
 | 20 | Berserker Strength       | Tasarin's Grimoire Pg. 30 |
@@ -61,7 +61,7 @@ EQ Research Only List
 ---
 
 # Wizard
-| LV | Spell | Words |
+| LV | Spell | Runes |
 | -- | --- | --- |
 | 16 | Pillar of Fire           | Proximity, Nagafen |
 | 16 | Project Lightning        | Fulguration, Periphery |
