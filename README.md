@@ -44,6 +44,7 @@
 - [Scout Time](https://pigparse.azurewebsites.net/)
 - [Project 1999 Wiki](https://wiki.project1999.com)
 - [顯卡設定指南](https://everquest.fanra.info/wiki/Graphics_and_performance_settings_guide#Necessary_effects)
+- [Spell Research Notes](spell_research.md)
 
 ---
 ## 任務
