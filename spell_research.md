@@ -26,17 +26,27 @@ EQ Research Only List
 ---
 
 # Magician
-| LV | Spell | Words |
-| -- | --- | --- |
-| 16 | Pets                  | Tyranny |
-| 20 | Pets                  | Dominion |
-| 24 | Cornucopia, Everfount | Transcendence |
-| 24 | Pets                  | Dimension |
-| 29 | Pets                  | Coercion |
-| 34 | Pets                  | Duress |
-| 39 | Pets                  | Convocation |
-| 44 | Pets                  | Incarceration |
-| 49 | Pets                  | Bondage |
+| LV | Spell | Words | Component 1 | Component 2 |
+| -- | --- | --- | --- | --- |
+| 16 | Pets       | Tyranny       | Can be bought in OOT | |
+| 20 | Pets       | Dominion      | Can be bought in OOT | |
+| 24 | Cornucopia | Transcendence | Summon Food | Loaf of Bread |
+| 24 | Everfount | Transcendence | Summon Drink | Water Flask |
+| 24 | Summoning: Air | Dimension | Lesser Summoning: Air | Pearl Shard |
+| 24 | Summoning: Fire | Dimension | Lesser Summoning: Fire | Jade Shard |
+| 24 | Summoning: Water | Dimension | Lesser Summoning: Water | Ice of Velious |
+| 29 | Greater Summoning: Earth | Coercion | Summoning: Earth | Glove of Rallos Zek |
+| 29 | Greater Summoning: Water | Coercion | Summoning: Water | Flame of Vox |
+| 34 | Minor Conjuration: Air | Duress | Greater Summoning: Air | The Scent of Marr |
+| 34 | Minor Conjuration: Fire | Duress | Greater Summoning: Fire | Breath of Solusek |
+| 39 | Lesser Conjuration: Earth | Convocation | Minor Conjuration: Earth | Glove of Rallos Zek |
+| 39 | Lesser Conjuration: Water | Convocation | Minor Conjuration: Water | Flame of Vox |
+| 44 | Conjuration: Air | Incarceration | Lesser Conjuration: Air | The Scent of Marr |
+| 44 | Conjuration: Earth | Incarceration | Lesser Conjuration: Earth | Essence of Rathe |
+| 44 | Conjuration: Water | Incarceration | Lesser Conjuration: Water | Tears of Prexus |
+| 49 | Greater Conjuration: Air | Bondage | Conjuration: Air | Wing of Xegony |
+| 49 | Greater Conjuration: Fire | Bondage | Conjuration: Fire | Breath of Ro |
+| 49 | Greater Conjuration: Water | Bondage | Conjuration: Water | Tears of Prexus |
 
 ---
 
