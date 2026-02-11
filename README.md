@@ -50,11 +50,13 @@
 ## 任務
 - ~~[2025 聖誕節特別任務(已結束)](XMAS-2025.md)~~
 - [Qeynos Badge Quests](https://wiki.project1999.com/Qeynos_Badge_Quests)
+- [Reinforcements for The Tunarean Regiment](https://wiki.project1999.com/Reinforcements_for_The_Tunarean_Regiment)
+- [Ralgyn's Promise](https://wiki.project1999.com/Ralgyn%27s_Promise)
 - [Monk EPIC 1.0](https://www.eqprogression.com/monk-1-0-epic-quest/)
 - [Druid EPIC 1.0](https://www.eqprogression.com/druid-1-0-epic-quest/)
 - [Necromancer EPIC 1.0](https://www.eqprogression.com/necromancer-1-0-epic-quest/)
 - [Magician EPIC 1.0](https://www.eqprogression.com/magician-1-0-epic-quest/)
-- [Enchanter EPIC 1.0](https://www.eqprogression.com/enchanter-1-0-epic-quest/)
+- [Enchanter EPIC 1.0](https://www.eqprogression.com/enchanter-1-0-epic-quest/) [Enc Epic P99](https://wiki.project1999.com/Enchanter_Epic_Quest)
 
 ---
 ## 好用工具
@@ -67,7 +69,7 @@
 - [DgVoodoo2](http://dege.freeweb.hu/dgVoodoo2/) 修復 nVidia 顯卡凍結問題
 - [WinEQ2](https://www.lavishsoft.com/download/wineq2) 修正顯示頻率過快 (EQPlayNice)
 - [S3DSpy_1.2.zip](https://sourceforge.net/projects/eqemulator/files/OpenZone/S3DSpy%201.2/S3DSpy_1.2.zip/download) 修改音效
-- [CCHPM V1.16.zip](https://kingdomdkp.com/data/files/system/guides/tools/CCHPM/CCHPM%20V1.16.zip) | [CCHPM(github)](https://github.com/winter88888/CCHPM) CH 輔助
+- [CCHPM](https://kingdomdkp.com/index.php/Guides/Chain-ch-performance-monitor-tool-cchpm.html) | [CCHPM V1.16.zip](https://kingdomdkp.com/data/files/system/guides/tools/CCHPM/CCHPM%20V1.16.zip) | [CCHPM(github)](https://github.com/winter88888/CCHPM) CH 輔助
 - [EQ NAG](https://guildantix.github.io/eq-nag/) LogParser/Trigger (GINA replacement)
 - [Krazzee's EQ Mods](https://sites.google.com/view/krazzee-eq/downloads) midi soundfont
 
