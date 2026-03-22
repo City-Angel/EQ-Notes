@@ -42,7 +42,9 @@
 ## 常用連結
 - [查價 (取代以前的 unixgeek)](https://pigparse.azurewebsites.net/ServerIndex/Green)
 - [Scout Time](https://pigparse.azurewebsites.net/)
-- [Project 1999 Wiki](https://wiki.project1999.com)
+- [Project 1999 Wiki](https://wiki.project1999.com) | [P99 Wiki Mirror](https://p99wiki.eqgeeks.org/Main_Page) | [P99 Wiki Archive](https://web.archive.org/web/20260101184950/https://wiki.project1999.com/)
+- [EQ Progression](https://www.eqprogression.com/)
+- [EQ Atlas 地圖](https://eqatlas.ca/)
 - [顯卡設定指南](https://everquest.fanra.info/wiki/Graphics_and_performance_settings_guide#Necessary_effects)
 - [Spell Research Note](spell_research.md)
 
