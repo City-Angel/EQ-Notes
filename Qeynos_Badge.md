@@ -64,7 +64,6 @@ Line 3:
 ---
 ## Badge 3 任務 Research Briefing 內容 (OCR)
 
-```
 Research Briefing
 
 *** Confidential ***
@@ -88,63 +87,80 @@ X = Diseased Rat
 
 Diagram 1
 
+```
 0XX
+```
 
 An Enchanted Rat is placed on the far right tile. The aura spreads and heals the two diseased rats.
 
 Result:
 
+```
 0000
+```
 
 In diagram 1, if an Enchanted Rat is placed on the Tile below a diseased rat, there is no effect. The aura did not encounter a healthy rat and did not reverse its flow.
 
 Result
 
+```
 0XX
 0
+```
 
 Diagram 2
 
+```
 0X
    X
    0
+```
 
 An Enchanted Rat is placed on the top right Tile. Diseased rats to the left and bottom are cured.
 
 Result
 
+```
 000
    0
    0
+```
 
 Diagram 3
 
+```
 0XX
  XXX
  0 0
+```
 
 An Enchanted Rat is placed on the top right Tile results as shown right.
 
 Result_
 
+```
 0000
  XX0
  X 0
+```
 
 An Enchanted Rat is placed on the left Tile second from the top. Results below.
 
+```
 0000
 0000
  X 0
+```
 
 Return all three Empty Ehchanted Jars to Velarte when finished. Do not drop any empty jar on a tile. It will break.
-```
 
 ---
 ## Research Badge 任務參考截圖
-例一
+### 例一
 ![例一](image/Qeynos_Badge3_01.png)
-例二
+### 例二
 ![例二](image/Qeynos_Badge3_02.png)
-例三
+### 例三
 ![例三](image/Qeynos_Badge3_03.png)
+
+---
