@@ -51,7 +51,7 @@
 ---
 ## 任務
 - ~~[2025 聖誕節特別任務(已結束)](XMAS-2025.md)~~
-- [Qeynos Badge Quests](https://wiki.project1999.com/Qeynos_Badge_Quests)
+- [奇諾斯榮譽徽章](Qeynos_Badge.md) | [Qeynos Badge Quests](https://wiki.project1999.com/Qeynos_Badge_Quests)
 - [Reinforcements for The Tunarean Regiment](https://wiki.project1999.com/Reinforcements_for_The_Tunarean_Regiment)
 - [Ralgyn's Promise](https://wiki.project1999.com/Ralgyn%27s_Promise)
 - [Monk EPIC 1.0](https://www.eqprogression.com/monk-1-0-epic-quest/)
