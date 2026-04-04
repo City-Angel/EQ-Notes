@@ -78,10 +78,11 @@
 ---
 ## 音效修改檔 (已用S3DSpy修改完畢)
 - 解壓縮後放入 EQ 目錄覆蓋原檔案即可。
-- [無雷聲](SoundFix/snd2fix(nothunders).zip)
-- [死靈59寵物無聲](SoundFix/snd5fix(no_spectre_loop_idle).zip)
-- [Lavastorm無炎爆聲](SoundFix/snd11fix(lavastorm).zip)
-- [POM無笑聲](SoundFix/snd8fix(pom_laughing).zip)
+- ~~[snd2 無雷聲](SoundFix/snd2fix(nothunder).zip)~~
+- [snd2 無風無雷與盒子音量降低](SoundFix/snd2fix(nothunder_nowind_chestfix).zip)
+- [snd5 死靈59寵物無聲](SoundFix/snd5fix(no_spectre_loop_idle).zip)
+- [snd8 POM無笑聲](SoundFix/snd8fix(pom_laughing).zip)
+- [snd11 Lavastorm無炎爆聲](SoundFix/snd11fix(lavastorm).zip)
 
 ---
 ## 設定常用按鍵
