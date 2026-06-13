@@ -79,6 +79,8 @@
 - [CCHPM](https://kingdomdkp.com/index.php/Guides/Chain-ch-performance-monitor-tool-cchpm.html) | [CCHPM V1.16.zip](https://kingdomdkp.com/data/files/system/guides/tools/CCHPM/CCHPM%20V1.16.zip) | [CCHPM(github)](https://github.com/winter88888/CCHPM) CH 輔助
 - [EQ NAG](https://guildantix.github.io/eq-nag/) LogParser/Trigger (GINA replacement)
 - [Krazzee's EQ Mods](https://sites.google.com/view/krazzee-eq/downloads) midi soundfont
+- [DXVK](https://github.com/doitsujin/dxvk) A Vulkan-based translation layer for Direct3D 8/9/10/11
+- [p99-login-proxy](https://github.com/eq-p99-tools/p99-login-proxy) | [kingdom fork](https://github.com/TheGrandPackard/p99-login-proxy/) 簡化登入工具
 
 ---
 ## 音效修改檔 (已用S3DSpy修改完畢)
@@ -135,19 +137,20 @@ P99 沒有預設貼上鍵，要自己加：
 ```
 
 ### 使用技能 (ctrl+a)
-(1~6, Sense Heading 一定要先花一點去導師那學習才會提升)
+- /do 1~6
+- Sense Heading 一定要先花一點去導師那學習才會提升
 ```
 /doability 1
 ```
 
 ### 使用戰鬥技能 (ctrl+c)
-(7~10)
+- /do 7~10
 ```
 /doability 7
 ```
 
 ### 修改字型大小 (change font size)
-(1~6)
+- 1~6
 ```
 /chatfontsize 6
 ```
