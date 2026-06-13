@@ -23,12 +23,18 @@ Line 3:
 
 ### Badge 1
  - [ ] 到 South Qeynos 找 an investigator 說 Hand me a Confession Document 得 Confession Document。
- - [ ] 到 Fireprides Shop 裡面把 Confession Document 給 Riley 得 Riley's Confession。
+![an investigator](image/an_investigator.png)
+<!-- github markdown does not support image size, the solution is HTML -->
+<!-- <a href="image/an_investigator_of_south_qeynos.png" _blink><img src="image/an_investigator_of_south_qeynos.png" width="400" height="400"/></a> -->
+ - [ ] 到 FirePrides Shop 裡面把 Confession Document 給 Riley 得 Riley's Confession。
+![Riley Shplots](image/Riley_Shplots.png)
  - [ ] 對 an investigator 說 Hand me a Confession Document 得 Confession Document。
  - [ ] 到 PVP Arena 地下，把 Confession Document 給 Willie Garrote 得 Willie's Confession。
+![Willie Garrote](image/Willie_Garrote.png)
  - [ ] 對 an investigator 說 Hand me a Confession Document 得 Confession Document。
  - [ ] 到碼頭把 Confession Document 給 Donally Stultz，殺他撿 Head of Donally Stultz。
- - [ ] 先對 an investigator 說 Hand me a Confession Document 得 Confession Document。(下個任務用)
+![Donally Stultz](image/Donally_Stultz.png)
+- [ ] 先對 an investigator 說 Hand me a Confession Document 得 Confession Document。(下個任務用)
  - [ ] 把 Riley's Confession, Willie's Confession 與 Head of Donally Stultz 給 an investigator 得 Investigator's Badge。(an investigator 會消失)
 
 ### Badge 2
@@ -45,10 +51,11 @@ Line 3:
 #### NOTE: Wiki 說可以在 Theodore 停止說話時攻擊跳過整個審問過程。
 
 ### Badge 3
- - [ ] 到 North Qeynos 的 Temple of Life 池塘旁(地圖最右邊)把 Interrogator's Badge 給 Velarte Selire (NOT Vegalys) 得 Research Briefing。(這本書說明如何治療老鼠)
+ - [ ] 到 North Qeynos 的 Temple of Life 池塘旁(地圖最右邊)把 Interrogator's Badge 給 Velarte Selire (NOT Vegalys) 得 [Research Briefing](#附錄1badge-3-的-research-briefing-內容-ocr)。(這本書說明如何治療老鼠)
  - [ ] 到 West Karana 殺 Oobnopterbevny Biddilets(女地精死靈法師) 撿 Enchanted Jars。(三個瓶子，這段可以先做)
+ ![女地精死靈路線圖](image/Oobnopterbevny_Path.png)
  - [ ] 把 Researcher Briefing 給 Velarte Selire 啟動治療老鼠任務。(限時遊戲6小時=真實18分)
- - [ ] 依序把一到三號瓶子放到空的 tile 來治療老鼠。
+ - [ ] 依序把一到三號瓶子放到空的 tile 來治療老鼠。[參考](#附錄2badge-3-參考截圖)
  - [ ] 正確治療所有老鼠後，將三個空瓶子給 Velarte 得 Researcher's Badge。
 
 ### Badge 4
@@ -62,7 +69,7 @@ Line 3:
 #### NOTE: 如果你在這步驟的任何地方失敗了，只要你還有 Seal of Vegalys 就可以無限重啟任務。
 
 ---
-## Badge 3 任務 Research Briefing 內容 (OCR)
+## 附錄1:Badge 3 的 Research Briefing 內容 (OCR)
 
 Research Briefing
 
@@ -155,7 +162,7 @@ An Enchanted Rat is placed on the left Tile second from the top. Results below.
 Return all three Empty Ehchanted Jars to Velarte when finished. Do not drop any empty jar on a tile. It will break.
 
 ---
-## Research Badge 任務參考截圖
+## 附錄2:Badge 3 參考截圖
 ### 例一
 ![例一](image/Qeynos_Badge3_01.png)
 ### 例二

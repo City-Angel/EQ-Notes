@@ -27,9 +27,13 @@
   - [Bard 兩首歌 (中間可穿插使用 Breath of Harmony)](#bard-兩首歌-中間可穿插使用-breath-of-harmony)
   - [Feign Death](#feign-death)
   - [單鍵 Auto Attack 技能](#單鍵-auto-attack-技能)
+  - [Hide 確認](#hide-確認)
+  - [Forage 自動收納](#forage-自動收納)
+  - [Rouge Evade](#rouge-evade)
 - [輸出檔案指令](#輸出檔案指令)
   - [某角色裝備與銀行](#某角色裝備與銀行)
   - [某角色法術書](#某角色法術書)
+- [螢幕比例設定：](#螢幕比例設定)
 - [紫色連結 (Target Purple link)](#紫色連結-target-purple-link)
 - [DgVoodoo2 修復 nVidia 顯卡遇到火焰螢幕凍結的問題](#dgvoodoo2-修復-nvidia-顯卡遇到火焰螢幕凍結的問題)
   - [How-To Use dgVoodoo2](#how-to-use-dgvoodoo2)
@@ -52,6 +56,7 @@
 ## 任務
 - ~~[2025 聖誕節特別任務(已結束)](XMAS-2025.md)~~
 - [奇諾斯榮譽徽章](Qeynos_Badge.md) | [Qeynos Badge Quests](https://wiki.project1999.com/Qeynos_Badge_Quests)
+- [The Grammar Manual(Ice Forged Shackles)](https://wiki.project1999.com/The_Grammar_Manual)
 - [Reinforcements for The Tunarean Regiment](https://wiki.project1999.com/Reinforcements_for_The_Tunarean_Regiment)
 - [Ralgyn's Promise](https://wiki.project1999.com/Ralgyn%27s_Promise)
 - [Monk EPIC 1.0](https://www.eqprogression.com/monk-1-0-epic-quest/)
@@ -204,15 +209,37 @@ P99 沒有預設貼上鍵，要自己加：
 - attack 狀態直接 FD 有 bug，怪依然會繼續攻擊。
 ```
 /attack off
-/doability 4
+/do 4
 ```
 
 ### 單鍵 Auto Attack 技能
 - disarm, kick 可以放一起。
 ```
 /attack on
-/doability 10
-/doability 7
+/do 10
+/do 7
+```
+
+### Hide 確認
+- 不可以有看見隱形的能力 (buff or item)
+```
+/pause 2,/do 3
+/pause 0,/target NAME
+```
+
+### Forage 自動收納
+```
+/pause 0,/stand
+/pause 5,/do 6
+/pause 0,/autoinv
+```
+
+### Rouge Evade
+- EQ Rogue Evade = 戰鬥中 Hide，成功會有訊息: You have momentarily ducked away from the main combat.
+```
+/pause 0,/attack off
+/pause 2,/do 3
+/pause 0,/attack on
 ```
 
 ---
@@ -220,12 +247,48 @@ P99 沒有預設貼上鍵，要自己加：
 
 ### 某角色裝備與銀行
 ```
-/outputfile inventory name_inventory.txt
+/outputfile inventory NAME_inventory.txt
 ```
 
 ### 某角色法術書
 ```
-/outputfile spellbook name_spellbook.txt
+/outputfile spellbook NAME_spellbook.txt
+```
+
+---
+## 螢幕比例設定：
+- `/viewport {left up right down}`
+- https://wiki.project1999.com/Viewport
+- 更改螢幕比例不會影響UI與滑鼠座標。
+
+768p 4:3
+```
+/viewport 171 0 1024 768
+```
+
+768p 16:9
+```
+/viewport 0 0 1366 768
+```
+
+1080p 4:3
+```
+/viewport 240 0 1440 1080
+```
+
+1080p 16:9
+```
+/viewport 0 0 1920 1080
+```
+
+1440p 4:3 (2K):
+```
+/viewport 320 0 1920 1440
+```
+
+1440p 16:9 (2K):
+```
+/viewport 0 0 2560 1440
 ```
 
 ---
