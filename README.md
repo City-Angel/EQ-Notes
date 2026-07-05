@@ -81,6 +81,7 @@
 - [Krazzee's EQ Mods](https://sites.google.com/view/krazzee-eq/downloads) midi soundfont
 - [DXVK](https://github.com/doitsujin/dxvk) A Vulkan-based translation layer for Direct3D 8/9/10/11
 - [p99-login-proxy](https://github.com/eq-p99-tools/p99-login-proxy) | [kingdom fork](https://github.com/TheGrandPackard/p99-login-proxy/) 簡化登入工具
+- [DuxaUI](https://p99.yourfirefly.com/downloads/DuxaUI_Standalone.rar) 好用的UI | [Vega's DuxaUI Modification](https://p99.yourfirefly.com/downloads/gwpw_mods_duxaui.zip) EXP藍條補丁 | From [Welgrim's Project 1999 Files](https://p99.yourfirefly.com/index.php)
 
 ---
 ## 音效修改檔 (已用S3DSpy修改完畢)
